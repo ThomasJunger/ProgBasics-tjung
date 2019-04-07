@@ -19,6 +19,10 @@ public class ProgBasics : MonoBehaviour {
 		Debug.Log("Relationale Operatoren: 9<6=  " + (9<6));
 		Debug.Log("Relationale Operatoren: 5>=5=  " + (5>=5));
 		Debug.Log("Relationale Operatoren: 6<=6=  " + (6>=6));
+
+		Debug.Log("Gleichheits Operatoren: 6==6=  " + (6==6));
+		Debug.Log("Gleichheits Operatoren: 6!=6=  " + (6!=6));
+
 		
 
 		
