@@ -23,9 +23,10 @@ public class ProgBasics : MonoBehaviour {
 		Debug.Log("Gleichheits Operatoren: 6==6=  " + (6==6));
 		Debug.Log("Gleichheits Operatoren: 6!=6=  " + (6!=6));
 
-		
-
-		
+		Debug.Log("Logische Operatoren: &=  " + (true&true));
+		Debug.Log("Logische Operatoren: &=  " + (false&&true));
+		Debug.Log("Logische Operatoren: |=  " + (false|true));
+		Debug.Log("Logische Operatoren: ||=  " + (true||false));
 	}
 	
 	// Update is called once per frame
