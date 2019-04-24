@@ -112,7 +112,6 @@ public class ProgBasics : MonoBehaviour
 		return "My grade is" + " " + MyGrade;
 	}
 
-
 	//experiments we did in class:
 	public string MyText(string myName)
 	{
@@ -124,11 +123,6 @@ public class ProgBasics : MonoBehaviour
 		Debug.Log("XY_void");
 	}
 	
-	public void VoidMethod()
-	{
-		//do something
-	}
-
 	public void AddNumbers(int a, int b)
 	{
 		int c = a + b;
@@ -149,9 +143,4 @@ public class ProgBasics : MonoBehaviour
 		AddNumbers(1, 2);
 	}
 
-	// Update is called once per frame
-	void Update () 
-	{
-		
-	}
 }
